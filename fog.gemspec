@@ -5,10 +5,10 @@ Gem::Specification.new do |s|
   ## Leave these as is they will be modified for you by the rake gemspec task.
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
-  s.name              = 'fog'
+  s.name              = 'fog-parser-fix'
   s.version           = '1.6.0'
   s.date              = '2012-09-15'
-  s.rubyforge_project = 'fog'
+  s.rubyforge_project = 'fog-parser-fix'
 
 
   ## Make sure your summary is short. The description may be as long
@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   ## List the primary authors. If there are a bunch of authors, it's probably
   ## better to set the email to an email list or something. If you don't have
   ## a custom homepage, consider using your GitHub URL or the like.
-  s.authors  = ["geemus (Wesley Beary)"]
-  s.email    = 'geemus@gmail.com'
-  s.homepage = 'http://github.com/fog/fog'
+  s.authors  = ["shaheen"]
+  s.email    = 'shaheenm@telenav.com'
+  s.homepage = 'http://github.com/ThinkNear/fog'
 
   ## This sections is only necessary if you have C extensions.
   # s.require_paths << 'ext'

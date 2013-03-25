@@ -36,7 +36,7 @@ module Fog
             super
             if name == 'member'
               if @parse_stack.last[:type] == :object
-                @parse_stack.last[:value] << {} # Push any empty object
+                @parse_stack.last[:value] << {} if @parse_stack.last[:value].respond_to?(:<<) # Push any empty object
               end
             elsif @list_tags.has_key?(name)
               set_value(name, [], :array) # Set an empty array
